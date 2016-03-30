@@ -73,7 +73,7 @@ class Notepad:
         self.__thisEditMenu.add_command(label="Copy", command=self.__copy)
         self.__thisEditMenu.add_command(label="Paste", command=self.__paste)
         self.__thisEditMenu.add_command(label="Select All", command=self.__selectAll)
-        self.__thisEditMenu.add_command(label="Clear All", command=self.__clearText())
+        self.__thisEditMenu.add_command(label="Clear All", command=self.__clearText)
         self.__thisMenuBar.add_cascade(label="Edit", menu=self.__thisEditMenu)
 
         self.__thisHelpMenu.add_command(label="About Notepad", command=self.__showAbout)
