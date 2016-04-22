@@ -1,0 +1,9 @@
+Create a simple TODO website with web.py
+
+**Prerequisite**
+1. PostgreSQL: for DB connection
+   Install Postgresql for python
+   ```(for *nix) sudo apt-get install postgresql-9.4```	
+
+2. Before starting the application, run the 'db/schema.sql' with Postgresql first
+Note: if you want to use other database, you may update the SQL in the 'db/schema.sql'
